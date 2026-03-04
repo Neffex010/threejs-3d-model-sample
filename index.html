@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="utf-8">
-		<title>Halcón Milenario</title>
+  <head>
+    <meta charset="utf-8">
+    <title>Halcón Milenario</title>
 
-		<link rel="stylesheet" href="public/index.css">
+    <link rel="stylesheet" href="public/index.css">
 
     <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
     <script type="importmap">
@@ -15,8 +15,17 @@
         }
       }
     </script>
-	</head>
-	<body>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="nav-logo">Galaxia 3D</div>
+      <div class="nav-links">
+        <a href="./index.html">Inicio</a>
+        <a href="https://www.youtube.com/watch?v=aOQuuotM-Ww">Video Tutorial</a>
+        <a href="https://github.com/dgreenheck/threejs-gltf-import" target="_blank" rel="noopener">Repositorio Original</a>
+      </div>
+    </nav>
+
     <div id="heading">
       <h1>El Halcón Milenario</h1>
       <div class="border"></div>
@@ -24,6 +33,11 @@
     <div id="progress-container">
       <div id="progress">Activando el hiperimpulso...</div>
     </div>
-		<script type="module" src="./main.js"></script>
-	</body>
+
+    <footer id="footer">
+      <p>&copy; 2026 Luis Enrique Cabrera García | Proyecto ITICS | Desarrollo de soluciones en ambientes virtuales</p>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+  </body>
 </html>
